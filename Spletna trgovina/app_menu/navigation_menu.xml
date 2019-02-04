@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+          android:icon="@drawable/ic_home_black_24dp"
+          android:title="Domov"/>
+    <item android:id="@+id/login"
+          android:icon="@drawable/ic_person_black_24dp"
+          android:title="Prijava"/>
+    <item android:id="@+id/myprofile"
+          android:visible="false"
+          android:icon="@drawable/ic_account_circle_black_24dp"
+          android:title="Moj Profil"/>
+    <item android:id="@+id/logout"
+          android:visible="false"
+          android:icon="@drawable/ic_person_outline_black_24dp"
+          android:title="Odjava"/>
+</menu>
